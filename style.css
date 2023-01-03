@@ -262,6 +262,7 @@ nav a {
     .first-container {
 
         height: 100%;
+        width: 100%;
     }
     .text-image {
       flex-direction: column;
@@ -269,20 +270,36 @@ nav a {
       justify-content: center;
     }
   
-    .text-area, .image-area {
-      width: 100%;
-    }
+    .text-area {
 
+        width: 50%;
+        height: 50%;
+    }
     .image-area {
 
+        width: 50%;
+        padding-right: 100%;
+        height: 50%;
+        object-fit: cover;
 
-        width: 120% ;
     }
 
     .last-container {
 
             flex-wrap: wrap;
 
+    }
+    #signIn {
+        background-color: #21B573;
+        color: aliceblue;
+        border-radius: 20px;
+    font-size: 0.8em;
+    display: inline-block;
+    width: 50px;
+
+    
+    
+    
     }
 
     
