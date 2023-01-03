@@ -301,6 +301,23 @@ nav a {
     
     
     }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+        text-align: center;
+
+    
+    }
+    nav a {
+
+        font-size: 12px;
+    }
 
     
   }
