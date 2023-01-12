@@ -1,6 +1,7 @@
 * {
 
     font-family: 'Poppins';
+    margin: 0;
 
 
 }
@@ -81,11 +82,19 @@ nav a {
     width: 30%;
 }
 
+.text-area p {
+
+    padding-bottom: 20px;
+}
+
 .text-area button {
 
     background: #21B573;
     border-radius: 33px;
-    padding: 12px 36px;
+    text-align: left;
+    
+    
+    padding: 12px 50px;
     border-color: transparent;
     color: white;
 
@@ -180,11 +189,14 @@ nav a {
 .card1 h1 {
 
     color: #413960;
+    font-size: 30px;
+    padding-bottom: 10px;
 }
 
 .card1 p {
 
     color: #585859;
+    padding: 10px;
 }
 
 .card1 button {
@@ -194,7 +206,7 @@ nav a {
     border-color: transparent;
     color: white;
     font-weight: bold;
-    padding: 8px 28px;
+    padding: 8px 20px;
     text-align: center;
 
 }
@@ -281,12 +293,14 @@ nav a {
         width: 50%;
         height: 50%;
     }
+
     .image-area {
 
-        width: 50%;
-        padding-right: 100%;
-        height: 50%;
-        object-fit: cover;
+        width: 100%;
+    }
+    .image-area img {
+
+        width: 100%;
 
     }
 
